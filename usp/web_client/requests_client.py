@@ -62,7 +62,7 @@ class RequestsWebClient(AbstractWebClient):
 
     __USER_AGENT = 'ultimate_sitemap_parser/{}'.format(__version__)
 
-    __HTTP_REQUEST_TIMEOUT = 60
+    __HTTP_REQUEST_TIMEOUT = 10
     """
     HTTP request timeout.
 

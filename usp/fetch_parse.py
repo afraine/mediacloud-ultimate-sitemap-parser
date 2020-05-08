@@ -51,7 +51,7 @@ class SitemapFetcher(object):
 
     Spec says it might be up to 50 MB but let's go for the full 100 MB here."""
 
-    __MAX_RECURSION_LEVEL = 10
+    __MAX_RECURSION_LEVEL = 0
     """Max. recursion level in iterating over sub-sitemaps."""
 
     __slots__ = [
